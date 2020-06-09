@@ -13,8 +13,8 @@ const Color = {
     blue: 50,
 }
 
-console.log(Color.red, Color.green, Color.blue);
+console.log(Color.red, Color.green, Color.blue + "     Bazowe atrybuty Color");
 
 const referenceColor = (Color.red = 50, Color.green = 50);
 
-console.log(Color.red, Color.green);
+console.log(Color.red, Color.green, Color.blue + "     Zmodyfikowane atrybuty Color");
