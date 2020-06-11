@@ -6,9 +6,9 @@ let array = [];
 const cols = 4;
 const rows = 5;
 let counter = 1;
-for(i = 0;i < cols; i++) {
+for(i = 0;i < rows; i++) {
     array.push([]);
-    for(j =0; j <= rows -1; j++){
+    for(j =0; j <= cols -1; j++){
         array[i].push(counter);
         counter++;
     }
