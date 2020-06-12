@@ -1,9 +1,10 @@
-let i = 0;
+let z = 0;
 while (true) {
   // Piszcie kod pod tym komentarzem.
-    console.log("...loading" + " level: " + i);
-    i++
-    // if (i = 5){
-    //     break
-    // }
+    console.log("...loading" + " level: " + z);
+    z++;
+    if(z > 5){
+        break
+    }
+
 }
