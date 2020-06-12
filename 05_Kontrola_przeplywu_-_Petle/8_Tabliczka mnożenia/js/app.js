@@ -8,14 +8,14 @@ for (i = 0; i < n; i++) {
      let result = ((i + 1) + " * " + (j + 1) + " = " + (i + 1) * (j + 1)); //wynik i + 1 i j + 1 zeby nie zaczynalo od 0
      let stringedRes = result.toString() //wynik przerabiam na stringa
      calc[i].push(stringedRes); //  przestringowany wynik wrzucam do podzbioru
+     let x = calc[i][j];
     }
 }
-for (i = 0; i < n;i++) {
-    console.log(calc[i]);
-}
 
-console.log(calc.);
-console.table(calc);  //wyswietli wynik w konsoli w formie tabeli
+
+console.log(calc);
+console.log("Typ każdego elementu w powyższych tablicach to: " + typeof calc[1][1]);
+// console.table(calc);  //wyswietli wynik w konsoli w formie tabeli
 
 
 
